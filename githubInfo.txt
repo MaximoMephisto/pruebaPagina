@@ -1,0 +1,30 @@
+=========================================
+Informacion basica para el uso de Github.
+=========================================
+
+Github es una plataforma que funciona para 
+alojar el código de las aplicaciones de 
+cualquier desarrollador.
+Tambien posee una funcion de alojamiento
+de pagina web estatica GRATIS.
+
+Para empezar a utilizar github:
+
+    1. Instalar Git en el computador a 
+    traves del siguiente link.
+    http://git-scm.com/download/win 
+
+    2. Una vez instalado, desde la pagina
+    de Github creas un repositorio y 
+    publicas tu codigo desde la terminal
+    de vscode con los siguientes comandos:
+
+    $ git init # Iniciamos git
+    $ git add . # con el "." indicamos que
+    deseamos anadir todos los archivos de 
+    la carpeta al repositorio
+    $ git commit -m "comentario" # Hacemos
+    un commit y agregamos un comentario 
+    referentes a los cambios hechos
+    $ git remote add origin "URL de repo"
+    $ git push origin master
